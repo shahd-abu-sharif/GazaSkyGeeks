@@ -10,7 +10,7 @@ class LibraryItem {
 
  
   static generateId() {
-    return Math.floor(Math.random() * 1000)
+    return Math.floor(Math.random() * 1000000)
   }
 
 
@@ -75,7 +75,7 @@ class Book extends LibraryItem {
   }
 }
 
-``` EXAMPLES OF USAFE : my favourit books ```
+``` EXAMPLES OF USAFE : my favourit book ```
 
 const book = new Book(
     "Atomic Habits",
